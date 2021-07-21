@@ -204,20 +204,3 @@ h2{
 .feature a:hover{
     color: #1D4EA5;
 }
-
-
-
-
-.menubar{
-    display: block;
-    height: 2cm;
-}
-.main{
-    display: flex;
-}
-
-.navi{
-    width: 20%;
-    height: 100cm;
-    background-color: lightcoral;
-}
