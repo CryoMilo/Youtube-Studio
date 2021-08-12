@@ -1,0 +1,41 @@
+            <div class="search_input">
+                <div class="input_logo">
+                    <img src="./assets/search.png">
+                </div>
+                <input type="text" class="input_text" placeholder="Search across your channel">
+            </div>
+
+.search_input {
+  display: flex;
+}
+
+.input_logo {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  border: 2px solid lightgray;
+  border-right: white;
+}
+
+.input_logo img {
+  width: 60%;
+  opacity: 0.6;
+}
+
+.input_text {
+  padding: 7px;
+  width: 500px;
+  border: 2px solid lightgray;
+  border-left: white;
+}
+
+.input_text:focus {
+  outline: none;
+}
+
+
+
+
+
